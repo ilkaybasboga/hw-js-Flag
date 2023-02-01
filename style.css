@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('./img/wp3846203.webp');
+    background-repeat: no-repeat;
+    background-size:cover;
+/* border: 2px solid red; */
+
+
+}
+.container{
+/* border: 2px solid red; */
+width: 100% !important;
+
+
+}
+.countries{
+    display: flex;
+    flex-wrap: wrap;
+/* border: 2px solid red; */
+width: 100% !important;
+}
+.countries img{
+height: 8rem;
+
+
+}
+
+.card{
+    width: 200px !important;
+}
