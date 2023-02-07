@@ -1,35 +1,30 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    background-image: url('./img/wp3846203.webp');
-    background-repeat: no-repeat;
-    background-size:cover;
-/* border: 2px solid red; */
-
-
+body {
+  background-image: url("./img/3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* border: 2px solid red; */
 }
-.container{
-/* border: 2px solid red; */
-width: 100% !important;
-
-
+.container {
+  /* border: 2px solid red; */
+  width: 100% !important;
 }
-.countries{
-    display: flex;
-    flex-wrap: wrap;
-/* border: 2px solid red; */
-width: 100% !important;
+.countries {
+  display: flex;
+  flex-wrap: wrap;
+  /* border: 2px solid red; */
+  width: 100% !important;
 }
-.countries img{
-height: 8rem;
-
-
+.countries img {
+  height: 8rem;
+  width: 100%;
 }
 
-.card{
-    width: 200px !important;
+.card {
+  width: 13rem;
 }

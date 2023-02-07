@@ -19,19 +19,35 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style.css" />
+    <script src="js/aes.js"></script>
+    <script src="js/Extentions.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
   </head>
 
-  <body >
-    <div class="container border-0 " >
-      <h1 class="text-danger text-center display-4 m-4">COUNTRIES</h1>
-      <div class="input-group mb-3 mx-auto w-50 d-flex justify-content-center">
-        <input id="input" type="text" class="form-control " placeholder="Countries Flag" aria-label="Countries Flag" aria-describedby="button-addon2">
-        <button class="btn btn-outline-warning" type="button" id="button-addon2">Button</button>
-      </div>
-    </div>
-    <div class="countries d-flex justify-content-center w-100"></div>
+  <body>
+    <div class="container text-center">
+      <h1 class="fw-bolder text-center display-4 m-4">COUNTRIES</h1>
+      <form class="mb-3 mx-auto w-25 d-flex justify-content-center" id="form">
+        <input
+          id="input"
+          type="text"
+          class="form-control"
+          placeholder="Countries Flag"
+          autofocus
+        />
+        <button class="btn btn-warning" type="submit" id="button-addon2">
+          Button
+        </button>
+      </form>
+      <span class="msg m-auto fw-bolder text-danger"></span>
 
-    <script src="app.js"></script>
+      <section class="ajax-section">
+        <div class="container">
+          <ul class="countries d-flex justify-content-center w-100"></ul>
+        </div>
+      </section>
+    </div>
+    <script src="./js/app.js"></script>
   </body>
 </html>
