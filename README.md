@@ -20,7 +20,7 @@ HW-JS-FLAG (folder)
 
 ## Expected Outcome
 
-![Project gif](Animation.gif)
+![Project gif](./img/Animation.gif)
 
 
 ### At the end of the project, following topics are to be covered;
