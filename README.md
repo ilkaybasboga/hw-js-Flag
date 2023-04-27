@@ -2,7 +2,7 @@
 # Project-Coutry&Flag
 
 ## Description
-Project aims to create Country İnfo website.
+In the project, I aim to create a Country Information website.
 
 
 ## Project Skeleton 
@@ -23,7 +23,7 @@ HW-JS-FLAG (folder)
 ![Project gif](./img/Animation.gif)
 
 
-### At the end of the project, following topics are to be covered;
+### At the end of the project, I will learn the following topics;
 
 - HTML 
 
